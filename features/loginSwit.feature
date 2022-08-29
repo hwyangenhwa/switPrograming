@@ -19,11 +19,11 @@ Feature: Checkboxes Page
 
     Examples:
       | id              | pw         | login |
-      | jukune          | None       | ad    |
-      | None            | sky!20638  | ad    |
+      | None          | None       | ad    |
+      | None            | None  | ad    |
       | None            | None       | ad    |
-      | junkune@        | sky!20368  | ad    |
-      | junku@gmail.com | sky!!20368 | ad    |
+      | junkune@        | None  | ad    |
+      | None | None | ad    |
 
   @pytest.mark.order(order=3)
     @login @normallogin
@@ -35,4 +35,4 @@ Feature: Checkboxes Page
 
       Examples:
       | id                | pw        | login  |
-      | junkune@gmail.com | sky!20638 | normal |
+      | None | None | normal |

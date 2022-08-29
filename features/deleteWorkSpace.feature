@@ -14,4 +14,4 @@ Feature: Checkboxes Page
 
     Examples:
       | id                | pw        | login  |
-      | junkune@gmail.com | sky!20638 | normal |
+      | - | - | normal |

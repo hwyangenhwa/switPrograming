@@ -15,8 +15,8 @@ Feature: Checkboxes Page
 
       Examples:
       | id                | pw        | login  | sub  | url  |
-      | junkune@gmail.com | sky!20638 | normal | test | a    |
-      | junkune@gmail.com | sky!20638 | normal | test | test |
+      | - | - | normal | - | a    |
+      | - | - | normal | - | test |
 
   @pytest.mark.order(order=7)
     @createworkspace
@@ -30,4 +30,4 @@ Feature: Checkboxes Page
 
     Examples:
       | id                | pw        | login  | sub      | url      |
-      | junkune@gmail.com | sky!20638 | normal | testyang | testyang |
+      | - | - | normal | - | - |
